@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/fe0f28557c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container mt-3">
+      <div class="card">
+        <div class="card-header">Payment Form Example</div>
+        <div class="card-body">
+          <form action="#">
+            <div class="alert alert-danger" role="alert">
+              Some fields are missing
+            </div>
+            <div class="row">
+              <div class="col-sm-5">
+                <label>Card #</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="card"
+                  placeholder="XXXXXXXXXXX"
+                />
+              </div>
+              <div class="col-sm-3">
+                <label>CVC #</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="card"
+                  placeholder="00000"
+                />
+              </div>
+              <div class="col-sm-4">
+                <label>Amount #</label>
+                <input type="text" class="form-control" id="card1" />
+              </div>
+              <div class="col-sm-6 mt-3">
+                <label>First Name</label>
+                <input type="text" class="form-control" id="card1" />
+              </div>
+              <div class="col-sm-6 mt-3">
+                <label>Last Name</label>
+                <input type="text" class="form-control" id="card1" />
+              </div>
+              <div class="col-sm-6 mt-3">
+                <label>City</label>
+                <input type="text" class="form-control" id="card1" />
+              </div>
+              <div class="col-sm-3 mt-3">
+                <label>City</label>
+
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Maturin</option>
+                  <option value="1">Caracas</option>
+                  <option value="2">Maracaibo</option>
+                  <option value="3">Merida</option>
+                </select>
+              </div>
+              <div class="col-sm-3 mt-3">
+                <label>Postal Code</label>
+                <input type="text" class="form-control" id="card1" />
+              </div>
+              <div class="col-sm-3 mt-3">
+                <span for="">We accept</span>
+                <div
+                  class="
+                    d-flex
+                    bg-secondary
+                    justify-content-between
+                    p-3
+                    rounded
+                  "
+                >
+                  <div class="align-items-center">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault1"
+                    />
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      <i
+                        class="fa fa-cc-mastercard"
+                        style="color: white; font-size: 36px"
+                      ></i>
+                    </label>
+                  </div>
+                  <div>
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault1"
+                    />
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      <i
+                        class="fa fa-cc-visa"
+                        style="color: white; font-size: 36px"
+                      ></i>
+                    </label>
+                  </div>
+                  <div>
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault1"
+                    />
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      <i
+                        class="fa fa-cc-diners-club"
+                        style="color: white; font-size: 36px"
+                      ></i>
+                    </label>
+                  </div>
+                  <div>
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault1"
+                    />
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      <i
+                        class="fa fa-cc-amex"
+                        style="color: white; font-size: 36px"
+                      ></i>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 offset-sm-3 mt-3">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                ></textarea>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="card-footer">
+          <div class="d-flex justify-content-end">
+            <button class="btn btn-secondary mx-2">Cancel</button>
+            <button class="btn btn-primary">Send</button>
+            <div class="px-2"></div>
+            <div class="px-2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
